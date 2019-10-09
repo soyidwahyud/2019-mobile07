@@ -26,4 +26,5 @@
     <string name="hello_food_fragment">ini food fragment</string>
     <string name="hello_movie_fragment">ini fragment movie</string>
     <string name="hello_diskon_fragment">ini fragment Diskon</string>
+    <string name="hello_travel_fragment">ini travael fragment</string>
 </resources>

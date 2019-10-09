@@ -11,6 +11,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import polinema.ac.id.androiduistarter.R;
 import polinema.ac.id.androiduistarter.fragments.Activities.Fragments.DiscountFragment;
+import polinema.ac.id.androiduistarter.fragments.Activities.Fragments.TravelFragment;
 import polinema.ac.id.androiduistarter.fragments.Activities.Fragments.foodFragment;
 import polinema.ac.id.androiduistarter.fragments.Activities.Fragments.movieFragment;
 
@@ -55,6 +56,9 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
                 break;
             case R.id.action_discount:
                 fragment = new DiscountFragment();
+                break;
+            case R.id.action_travel:
+                fragment = new TravelFragment();
                 break;
         }
         return loadFragment(fragment);
